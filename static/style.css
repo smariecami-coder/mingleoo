@@ -39,7 +39,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #000; /* Navbar preta */
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(248, 30, 36, 1) 18%, rgb(199 81 37) 81%, rgb(110 74 22) 100%);
     color: #fff;
     padding: 12px 25px; /* Mais padding na nav */
     display: flex;
