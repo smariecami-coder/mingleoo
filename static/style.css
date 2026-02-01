@@ -321,6 +321,9 @@ h1, h2, h3 {
     margin-bottom: 20px;
     text-align: left;
     line-height: 1.2;
+     font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+
 }
 
 h1 { font-size: 2.5em; font-weight: 700;} /* Título maior e mais pesado */
