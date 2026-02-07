@@ -14,4 +14,22 @@ tl.to(".gsap", {
   opacity: 0,
   y: 60,
   ease: "power2.out"
-});
+})
+
+tl.to(".txtlateral",{
+
+
+
+})
+tl.to(".txtlateral",{
+
+opacity:0,
+
+
+})
+tl.to(".txt",{
+
+letterSpacing: "20px",
+ease: "power2.out"
+
+})
