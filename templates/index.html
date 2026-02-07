@@ -61,9 +61,15 @@
 
     <!-- Conteúdo principal -->
     <div class="container">
-        <h1>Mingleoo.com: Faça Amigos e Conecte-se Facilmente!</h1>
 
-        <p>Encontre sua comunidade, faça amigos novos e explore perfis de pessoas que compartilham seus interesses. Conecte-se com facilidade e comece a construir suas novas amizades hoje!</p>
+        <div class="gsap">
+        
+            <h1>Mingleoo.com: Faça Amigos e Conecte-se Facilmente!</h1>
+
+        </div>
+
+
+        <p class="gsap">Encontre sua comunidade, faça amigos novos e explore perfis de pessoas que compartilham seus interesses. Conecte-se com facilidade e comece a construir suas novas amizades hoje!</p>
 
         <p>
             <a href="/register" class="btn">Junte-se à Mingleoo!</a>
@@ -95,6 +101,10 @@
         <p>&copy; 2026 mingleoo.com. Todos os direitos reservados.</p>
         <p>Made with ❤️ by PKXD <img src="{{ url_for('static', filename='images/brazil_flag.svg') }}" alt="Brazil Flag" style="width: 16px; height: auto; vertical-align: middle;"></p>
     </footer>
+
+<script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+<script src="{{ url_for('static', filename='js.js') }}"></script>
 
 </body>
 </html>
