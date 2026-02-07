@@ -47,7 +47,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    border-bottom: 1px solid #222; /* Borda mais escura */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
